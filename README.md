@@ -18,7 +18,7 @@ insert into sklh_tgh values ('SMP',2021,5500000);
 insert into sklh_tgh values ('SMA',2021,20000000);
 ```
 
-3. query normal
+3. query rows
 ```
 select * from sklh_tgh;
 
@@ -37,7 +37,7 @@ SMA			   2021   20000000
 8 rows selected.
 ```
 
-4. query rows to column
+4. query rows to columns
 ```
 select * from sklh_tgh
     pivot (
